@@ -1,0 +1,405 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body
+{
+    color: #ededed;
+    background: #000000;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: rgb(255, 215, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(255, 215, 0);
+    
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+
+.silver-line {
+    border: 5px solid silver; /* Set border style for the silver line */
+    margin: 0; /* Remove default margin for the horizontal rule */
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color:  #010205;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: centre;
+    padding: 70px 10% 0;
+}
+.home-content {
+    max-width:500px;
+    
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+ }
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color:#ffd700
+    }
+.home-content h3 {
+    color: silver;
+}
+.home-content p {
+    font-size: 20px;
+    color:silver;
+}
+.profile-image {
+    width: 500px;
+    margin-right: 50px; /* Adjust margin on the right side of the image */
+    border-radius: 15px; /* Add rounded corners */
+    height: auto; /* Maintain the aspect ratio */
+}
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid#ffd700;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffd700;
+    text-decoration: none;
+    margin: 30px 15px 0;
+}
+.home-sci a:hover {
+    background: #ffd700;
+    color: #081b29;
+    box-shadow: 0 0 20px #ffd700;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #ffd700;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold, 0 0 50px gold,
+            0 0 10px gold, 0 0 20px gold;
+
+}
+
+.container_1 {
+   width:100%;
+    margin: 0 auto;
+    background-color: #000;
+    
+}
+
+
+.about-text h2 {
+    font-size: 60px;
+    text-align: center;
+}
+.about-text h2 span {
+    color: #ffd700;
+}
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+
+.sub-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-title span {
+    color: gold;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.services-list div {
+    background-color: #040c0e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Add a white/silver box shadow on hover */
+    
+}
+
+.services-list i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.services-list h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.services-list p {
+    color: silver;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read:hover {
+    background-color: silver;
+}
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+}
+.contact-text h2 {
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h2 span {
+    color: #ffd700;
+}
+.contact-text h4 {
+    font-size: 15px 0;
+    color: rgb(220,228,228);
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text p {
+    color: rgb(177, 177,177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contact-list {
+    margin-bottom: 3rem;
+}
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i {
+    display: inline-block;
+    color: #ffd700;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #ffd700;
+}
+.contact-icons i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffd700;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffd700;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+.contact-icons i:hover{
+    background: #ffd700;
+    color: #000;
+    box-shadow: 0 0 20px #ffd700;
+}
+.contact-form{
+    position: relative;
+}
+form {
+	text-align: center;
+	margin-top: 0;
+	height: auto;
+	width: auto;
+}
+.submit {
+	background-color: #010605;
+    width: 150px;
+    font-size: 14px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+.submit:hover {
+	background-color: #ffd700;
+}
+textarea {
+	height: 90px;
+}
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+
+fieldset {
+    border-radius: 20px;
+}
+.contact-form form input,form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    display: inline-block;
+    padding: 14px 60px;
+    background: #ffd700;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px #ffd700,0 0 25px #ffd700;
+
+}
+.contact-form form .send:hover{
+    box-shadow: 0 0 5px cyan , 0 0 25px cyan, 0 0 50px cyan ,
+    0 0 10px cyan,  0 0 20px cyan;
+
+}
+
+.last-text {
+    opacity: 0; /* Initially set opacity to 0 */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: opacity 0.5s ease; /* Apply a smooth transition */
+}
+
+/* Add this to reveal the footer with animation */
+body:hover .last-text {
+    opacity: 1;
+}
